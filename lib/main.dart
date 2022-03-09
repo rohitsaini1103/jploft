@@ -262,8 +262,7 @@ class _TestState extends State<Test> {
                                                     child: IconButton(
                                                       onPressed: () {},
                                                       icon: const Icon(
-                                                        CupertinoIcons
-                                                            .chat_bubble,
+                                                        Icons.message,
                                                         color: Colors.white,
                                                       ),
                                                     ),
