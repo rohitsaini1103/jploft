@@ -7,7 +7,6 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:task/userModel.dart';
 import 'Updater.dart';
-import 'bottom.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
 void main(){
