@@ -338,19 +338,23 @@ class _TestState extends State<Test> {
             BottomNavyBarItem(
                 inactiveColor: Color(0xffededed),
                 activeColor: Color(0xffda2a78),
+                textAlign: TextAlign.center,
                 icon: Icon(Icons.home_outlined),
                 title: Text("Home")),
             BottomNavyBarItem(
+                textAlign: TextAlign.center,
                 inactiveColor: Color(0xffededed),
                 activeColor: Color(0xffda2a78),
                 icon: Icon(Icons.message),
                 title: Text("Chat")),
             BottomNavyBarItem(
+                textAlign: TextAlign.center,
                 inactiveColor: Color(0xffededed),
                 activeColor: Color(0xffda2a78),
                 icon: Icon(Icons.email_outlined),
                 title: Text("Message")),
             BottomNavyBarItem(
+                textAlign: TextAlign.center,
                 inactiveColor: Color(0xffededed),
                 activeColor: Color(0xffda2a78),
                 icon: ClipRRect(
