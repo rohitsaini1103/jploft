@@ -54,7 +54,7 @@ class _TestState extends State<Test> {
   Widget build(BuildContext context) {
     data = Provider.of<Updater>(context, listen: true).model;
     return Scaffold(
-      backgroundColor: Colors.pink[100],
+      backgroundColor: Color(0xfff9d7e6),
       body: data != null
           ? Container(
               alignment: Alignment.bottomCenter,
